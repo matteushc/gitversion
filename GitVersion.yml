@@ -1,0 +1,31 @@
+mode: Mainline
+branches:
+  main:
+    regex: ^master$|^main$
+    tag: ''
+    increment: Patch
+  develop:
+    regex: ^dev(elop)?(ment)?$
+    tag: ''
+    increment: Minor
+    is-mainline: true
+  feature:
+    regex: ^features?[/a-z_\d]+
+    tag: useBranchName
+    increment: Inherit
+    is-mainline: true
+  release:
+    regex: ^releases?[/a-z_\d]+
+    tag: ''
+    increment: Major
+    is-mainline: true
+  hotfix:
+    regex: ^hotfix(es)?[/a-z_\d]+
+    tag: useBranchName
+    increment: Patch
+    is-mainline: true
+  pull-request:
+    regex: ^(pull|pull\-requests|pr)[/-]
+    tag: PullRequest
+    increment: Inherit
+merge-message-formats: {}
