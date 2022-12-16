@@ -1,1 +1,1 @@
-__version__=0.1.5-hotfix-change.5
+__version__=0.6.0
