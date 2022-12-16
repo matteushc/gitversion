@@ -1,1 +1,1 @@
-__version__=0.1.7-feature-teste.9
+__version__=0.8.0
