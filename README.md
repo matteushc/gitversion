@@ -1,1 +1,4 @@
 # gitversion
+
+
+https://7733588.fs1.hubspotusercontent-na1.net/hubfs/7733588/PDFs/fundamentals-of-data-engineering.pdf?utm_campaign=Autoresponders&utm_medium=email&_hsmi=225470137&_hsenc=p2ANqtz-9mdOgws7MIXMvEeOwSmd5gsEiqgjXucY7egSJFVr8jFwZNPtk48sujp-JK6b73M7Bbqiwid0qIiZE0ryNxpUpyta603WbUtdG7I4A1S1fSS8TB850&utm_content=225470137&utm_source=hs_automation
