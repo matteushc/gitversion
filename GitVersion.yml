@@ -1,0 +1,30 @@
+mode: MainLine
+branches:
+  main:
+    is-mainline: true
+    increment: None
+    track-merge-target: true
+  develop:
+    pre-release-weight: 30000
+    is-mainline: true
+    increment: None
+    track-merge-target: true
+  feature:
+    tag: useBranchName
+    track-merge-target: true
+  release:
+    tag: useBranchName
+    track-merge-target: true
+  hotfix:
+    tag: useBranchName
+    track-merge-target: true
+  pull-request:
+    tag: PullRequest
+    track-merge-target: true
+merge-message-formats: {}
+
+commit-message-incrementing: Enabled
+major-version-bump-message: "^release:.+"
+minor-version-bump-message: "^feature:.+"
+patch-version-bump-message: "^(hotfix:|bug:|fix:).+"
+no-bump-message: "^(style:|doctring:).+"
